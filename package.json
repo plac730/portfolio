@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plac730/portfolio.git"
+  },
+  "author": "Peter Lac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plac730/portfolio/issues"
+  },
+  "homepage": "https://github.com/plac730/portfolio#readme"
+}
