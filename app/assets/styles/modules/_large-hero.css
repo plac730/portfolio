@@ -1,0 +1,15 @@
+.large-hero {
+
+  height: 500px;
+  background: url('../../assets/images/background2.jpg');
+  background-position: center;
+  background-size: cover;
+
+  &__text-content {
+    width:100%;
+    text-align: center;
+    color:white;
+
+  }
+
+}
