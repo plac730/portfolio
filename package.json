@@ -4,12 +4,14 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "normalize.css": "^7.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "browser-sync": "^2.18.12",
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-watch": "^4.3.11",
