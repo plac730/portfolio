@@ -1,20 +1,25 @@
 .about-content {
+  text-align: center;
+  background-color:rgb(235,235,225);
+
   &__icon {
-    text-align: center;
+    font-size: 1.6rem;
     padding: 1.5rem 0;
     text-shadow: -3px 3px 12px #000000;
-    color: rgb(239, 218, 182);
+    /*color: rgb(239, 218, 182);*/
   }
 
   &__text {
     line-height: 1.5rem;
     font-weight: 300;
+    padding: 0 1rem;
     /*text-shadow: -3px 3px 12px #000000;*/
 
     @mixin atSmall {
       font-size: 2rem;
       font-weight: 300;
       line-height: 2.5rem;
+      padding: 2rem 2rem;
     }
   }
 

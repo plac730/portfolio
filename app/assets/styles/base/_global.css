@@ -17,4 +17,18 @@ img {
 
 .fa {
   display: inline-block;
+
+  &-book {
+    color: $mainOrange;
+    text-shadow: 3px 3px 12px rgba(55, 55, 55);
+  }
+
+  &-graduation-cap {
+    color: black;
+    text-shadow: 3px 3px 12px rgba(70, 70, 70, 1);
+  }
+
+  &-user-o {
+    color: rgb(220, 200, 200);
+  }
 }

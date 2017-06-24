@@ -2,8 +2,8 @@
   padding: 2rem 0;
 
   &--blue {
-    background-color: $mainBlue;
-    color: white;
+    background-color: rgb(60,60,50);
+    color: black;
   }
 
   @mixin atSmall {
