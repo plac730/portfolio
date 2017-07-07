@@ -1,9 +1,13 @@
 .page-section {
   padding: 2rem 0;
 
-  &--blue {
-    background-color: rgb(60,60,50);
+  &--dark {
+    background-color: rgb(80,80,60);
     color: black;
+  }
+
+  &--light {
+    background-color: rgb(225, 225, 210);
   }
 
   @mixin atSmall {

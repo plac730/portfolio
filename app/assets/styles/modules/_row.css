@@ -16,5 +16,6 @@
 
   &--gutters > div {
     padding-right: 65px;
+    padding-bottom: 65px;
   }
 }

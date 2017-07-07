@@ -579,9 +579,13 @@ img {
   padding: 2rem 0;
 }
 
-.page-section--blue {
-    background-color: rgb(60,60,50);
+.page-section--dark {
+    background-color: rgb(80,80,60);
     color: black;
+  }
+
+.page-section--light {
+    background-color: rgb(225, 225, 210);
   }
 
 @media (min-width: 530px) {
@@ -595,7 +599,7 @@ img {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
-  text-shadow: -5px 5px 12px #000000;
+  text-shadow: -5px 5px 10px #000000;
   color: white;
 }
 
@@ -625,6 +629,7 @@ img {
 
 .row--gutters > div {
     padding-right: 65px;
+    padding-bottom: 65px;
   }
 
 .about-content {
