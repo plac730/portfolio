@@ -9,13 +9,30 @@
     }
   }
 
-
   &--gutters {
+    margin-right: -65px;
+  }
+
+  &--gutters-small {
     margin-right: -65px;
   }
 
   &--gutters > div {
     padding-right: 65px;
     padding-bottom: 65px;
+  }
+
+  &--gutters-small > div {
+    padding-right: 65px;
+    padding-bottom: 100px;
+  }
+
+  &__medium-6 {
+    float: left;
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
   }
 }
