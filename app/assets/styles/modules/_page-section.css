@@ -1,5 +1,6 @@
 .page-section {
   padding: 2rem 0;
+  border-bottom: 10px solid black;
 
   &--dark {
     background-color: rgb(80,80,60);
@@ -8,6 +9,13 @@
 
   &--light {
     background-color: rgb(225, 225, 210);
+  }
+
+  &--contact {
+    height: 1080px;
+    background: url('/assets/images/handshake2.jpg') top center no-repeat;
+    background-size: cover;
+
   }
 
   @mixin atSmall {

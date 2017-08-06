@@ -1,4 +1,4 @@
-.about-content {
+.block-content {
   text-align: center;
   background-color:rgb(235,235,225);
 
@@ -12,7 +12,7 @@
   &__text {
     line-height: 1.5rem;
     font-weight: 300;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     /*text-shadow: -3px 3px 12px #000000;*/
 
     @mixin atSmall {

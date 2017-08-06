@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  border-bottom: 10px solid black;
+  /*border-bottom: 10px solid black;*/
 
   &__image {
     display: block;
