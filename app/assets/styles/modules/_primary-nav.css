@@ -1,0 +1,106 @@
+.primary-nav {
+  min-height: 26px;
+    &__home {
+      display:block;
+      opacity: 0;
+      font-size: 1.2rem;
+      padding-bottom: .5rem;
+      transition: all .3s ease-out;
+      position: relative;
+      z-index:-10;
+      transform: scale(1.2);
+
+      &--visible {
+        display:block;
+        z-index: 1;
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      @mixin atSmall {
+        display:block;
+        opacity: 1;
+        z-index: 1;
+        float:left;
+        padding-bottom: 0;
+        transform: scale(1);
+      }
+
+      @mixin atMedium {
+        display:block;
+        opacity: 1;
+        float: left;
+        font-size: 2rem;
+      }
+    }
+
+    &__menu-content {
+      display: block;
+      opacity: 0;
+      font-size: 1.2rem;
+      position: relative;
+      z-index: -10;
+      transform: scale(1.2);
+      transition: all .3s ease-out;
+
+      @mixin atSmall {
+        display: block;
+        z-index: 1;
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      @mixin atMedium {
+        display:block;
+        opacity: 1;
+        font-size: 2rem;
+      }
+
+      &--visible {
+        display:block;
+        z-index: 1;
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      @mixin atSmall {
+        float: right;
+      }
+    }
+
+    li {
+      list-style: none;
+      padding-bottom: 0.5rem;
+      padding-right:1rem;
+
+      @mixin atSmall {
+        float: left;
+
+        padding-bottom: 0;
+      }
+
+      @mixin atMedium {
+        padding-right: 2rem;
+      }
+    }
+
+    li:last-child {
+      padding-right: 0;
+    }
+
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $mainOrange;
+    }
+}

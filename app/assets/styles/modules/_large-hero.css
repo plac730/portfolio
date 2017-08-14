@@ -9,7 +9,7 @@
   }
 
   &__text-content {
-
+    padding-top: 3.75rem;
     position: absolute;
     transform:translateY(-50%);
     top: 50%;
@@ -27,6 +27,10 @@
     margin: 0;
 
     @mixin atSmall {
+      font-size: 5rem;
+    }
+
+    @mixin atMedium {
       font-size: 6.8rem;
     }
   }
@@ -40,6 +44,10 @@
     margin: 0;
 
     @mixin atSmall {
+      font-size: 2.2rem;
+    }
+
+    @mixin atMedium {
       font-size: 2.9rem;
     }
   }
