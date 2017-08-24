@@ -1,6 +1,19 @@
 .block-content {
-  text-align: center;
   background-color:rgb(235,235,225);
+  text-align: center;
+
+  &-1 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
+  &-2 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
+  &-3 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
 
   &__icon {
     font-size: 1.6rem;
@@ -13,6 +26,7 @@
     line-height: 1.5rem;
     font-weight: 300;
     padding: 1rem 1rem;
+
     /*text-shadow: -3px 3px 12px #000000;*/
 
     @mixin atSmall {
@@ -23,5 +37,7 @@
     }
   }
 
+  &__screenshot {
 
+  }
 }

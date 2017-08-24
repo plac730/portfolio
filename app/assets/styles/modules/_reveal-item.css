@@ -1,0 +1,22 @@
+.reveal-item {
+  opacity: 0;
+  transform: scale(.80);
+  transition: all 1s ease-out;
+
+  @mixin atMedium {
+    &-slow {
+      transition-delay: 1s;
+    }
+    &-normal {
+      transition-delay: .6s;
+    }
+    &-fast {
+      transition-delay: .3s;
+    }
+  }
+
+  &--is-visible {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

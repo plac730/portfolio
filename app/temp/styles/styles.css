@@ -675,11 +675,24 @@ img {
   }
 
 .block-content {
-  text-align: center;
   background-color:rgb(235,235,225);
-
-
+  text-align: center;
 }
+
+.block-content-1 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
+
+.block-content-2 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
+
+.block-content-3 {
+    background-color:rgb(235,235,225);
+    text-align: center;
+  }
 
 .block-content__icon {
     font-size: 1.6rem;
@@ -704,6 +717,10 @@ img {
       line-height: 2.5rem;
       padding: 2rem 2rem
   }
+  }
+
+.block-content__screenshot {
+
   }
 
 .site-footer {
@@ -944,3 +961,32 @@ img {
 .primary-nav a:hover {
       color: #d59541;
     }
+
+.reveal-item {
+  opacity: 0;
+  -webkit-transform: scale(.80);
+          transform: scale(.80);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+@media (min-width: 800px) {
+    .reveal-item-slow {
+      -webkit-transition-delay: 1s;
+              transition-delay: 1s;
+    }
+    .reveal-item-normal {
+      -webkit-transition-delay: .6s;
+              transition-delay: .6s;
+    }
+    .reveal-item-fast {
+      -webkit-transition-delay: .3s;
+              transition-delay: .3s;
+    }
+  }
+
+.reveal-item--is-visible {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
