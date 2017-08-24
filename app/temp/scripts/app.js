@@ -121,6 +121,7 @@ var MobileMenu = function () {
       this.siteHeader.toggleClass('site-header--expanded');
       this.menuContent.toggleClass('primary-nav__menu-content--visible');
       this.homeLink.toggleClass('primary-nav__home--visible');
+      this.menuIcon.toggleClass('site-header__menu-icon--close-x');
     }
   }]);
 
