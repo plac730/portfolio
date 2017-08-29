@@ -2,17 +2,24 @@
   background-color:rgb(235,235,225);
   text-align: center;
 
+  &:hover {
+    box-shadow: -5px 5px 15px #888888;
+  }
+
   &-1 {
     background-color:rgb(235,235,225);
     text-align: center;
+    box-shadow: -6px 6px 12px #888888;
   }
   &-2 {
     background-color:rgb(235,235,225);
     text-align: center;
+    box-shadow: -6px 6px 12px #888888;
   }
   &-3 {
     background-color:rgb(235,235,225);
     text-align: center;
+    box-shadow: -6px 6px 12px #888888;
   }
 
   &__icon {

@@ -98,9 +98,14 @@
     a {
       color: white;
       text-decoration: none;
+
+      &.is-current-link {
+        color: $mainOrange;
+      }
     }
 
     a:hover {
       color: $mainOrange;
+      font-weight: 500;
     }
 }

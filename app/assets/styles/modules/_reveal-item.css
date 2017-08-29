@@ -1,7 +1,7 @@
 .reveal-item {
   opacity: 0;
   transform: scale(.80);
-  transition: all 1s ease-out;
+  transition: all .5s ease-out;
 
   @mixin atMedium {
     &-slow {
@@ -11,7 +11,7 @@
       transition-delay: .6s;
     }
     &-fast {
-      transition-delay: .3s;
+      transition-delay: .1s;
     }
   }
 

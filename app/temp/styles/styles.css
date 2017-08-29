@@ -597,7 +597,7 @@ img {
 /*border-bottom: 10px solid black;*/
 
 .page-section--dark {
-    background-color: rgb(160, 160, 130);
+    background-color: rgb(170, 170, 150);
     color: black;
   }
 
@@ -679,19 +679,30 @@ img {
   text-align: center;
 }
 
+.block-content:hover {
+    -webkit-box-shadow: -5px 5px 15px #888888;
+            box-shadow: -5px 5px 15px #888888;
+  }
+
 .block-content-1 {
     background-color:rgb(235,235,225);
     text-align: center;
+    -webkit-box-shadow: -6px 6px 12px #888888;
+            box-shadow: -6px 6px 12px #888888;
   }
 
 .block-content-2 {
     background-color:rgb(235,235,225);
     text-align: center;
+    -webkit-box-shadow: -6px 6px 12px #888888;
+            box-shadow: -6px 6px 12px #888888;
   }
 
 .block-content-3 {
     background-color:rgb(235,235,225);
     text-align: center;
+    -webkit-box-shadow: -6px 6px 12px #888888;
+            box-shadow: -6px 6px 12px #888888;
   }
 
 .block-content__icon {
@@ -804,6 +815,18 @@ img {
       -webkit-transition: all .3s ease-out;
       transition: all .3s ease-out;
     }
+
+.site-header__menu-icon:hover::before {
+        background-color: rgb(150,150,150);
+      }
+
+.site-header__menu-icon:hover .site-header__menu-icon__mid {
+        background-color: rgb(150,150,150);
+      }
+
+.site-header__menu-icon:hover::after {
+        background-color: rgb(150,150,150);
+      }
 
 @media (min-width: 530px) {
 
@@ -958,16 +981,21 @@ img {
       text-decoration: none;
     }
 
+.primary-nav a.is-current-link {
+        color: #d59541;
+      }
+
 .primary-nav a:hover {
       color: #d59541;
+      font-weight: 500;
     }
 
 .reveal-item {
   opacity: 0;
   -webkit-transform: scale(.80);
           transform: scale(.80);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 @media (min-width: 800px) {
@@ -980,8 +1008,8 @@ img {
               transition-delay: .6s;
     }
     .reveal-item-fast {
-      -webkit-transition-delay: .3s;
-              transition-delay: .3s;
+      -webkit-transition-delay: .1s;
+              transition-delay: .1s;
     }
   }
 

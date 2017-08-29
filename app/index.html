@@ -16,20 +16,20 @@
             </div>
           </div>
           <div class="primary-nav__home">
-            <a href="#home">Home</a>
+            <a href="#home" id="home-link">Home</a>
           </div>
           <div class="primary-nav__menu-content">
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about" id="about-link">About</a></li>
+              <li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
+              <li><a href="#contact" id="contact-link">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
 
     </header>
-    <div id="home" class="large-hero">
+    <div id="home" class="large-hero" data-matching-link="#home-link">
       <img class="large-hero__image" src="assets/images/background-light.jpg" alt="background image">
       <div class="large-hero__text-content">
         <div class="wrapper">
@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div id="about" class="page-section page-section--dark">
+    <div id="about" class="page-section page-section--dark" data-matching-link="#about-link">
       <div class="wrapper">
         <h1 class="section-title">About Me</h1>
         <div class="row row--gutters">
@@ -78,14 +78,14 @@
       </div>
     </div>
 
-    <div id="portfolio" class="page-section page-section--light">
+    <div id="portfolio" class="page-section page-section--light" data-matching-link="#portfolio-link">
       <div class="wrapper">
         <h1 class="section-title">Portfolio</h1>
         <div class="row row--gutters">
           <div class="row__medium-6">
             <div class="block-content">
               <div class="block-content__text">
-                <h1>Title</h1>
+                <h1>Title 1</h1>
                 <p><strong>Technologies:</strong> HTML, CSS, Javascript</p>
                 <p>This app... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
@@ -101,7 +101,7 @@
           <div class="row__medium-6">
             <div class="block-content">
               <div class="block-content__text">
-                <h1>Title</h1>
+                <h1>Title 2</h1>
                 <p><strong>Technologies:</strong> HTML, CSS, Javascript</p>
                 <p>This app... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
@@ -117,7 +117,7 @@
           <div class="row__medium-6">
             <div class="block-content">
               <div class="block-content__text">
-                  <h1>Title</h1>
+                  <h1>Title 3</h1>
                   <p><strong>Technologies:</strong> HTML, CSS, Javascript</p>
                   <p>This app... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
@@ -133,7 +133,7 @@
       </div>
     </div>
 
-    <div id="contact" class="page-section page-section--contact">
+    <div id="contact" class="page-section page-section--contact" data-matching-link="#contact-link">
       <div class="wrapper">
         <h1 class="section-title">Get In Touch</h1>
       </div>

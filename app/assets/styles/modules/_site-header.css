@@ -57,6 +57,20 @@
       transition: all .3s ease-out;
     }
 
+    &:hover {
+      &::before {
+        background-color: rgb(150,150,150);
+      }
+
+      .site-header__menu-icon__mid {
+        background-color: rgb(150,150,150);
+      }
+
+      &::after {
+        background-color: rgb(150,150,150);
+      }
+    }
+
     @mixin atSmall {
       display: none;
     }
