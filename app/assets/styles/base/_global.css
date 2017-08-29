@@ -31,4 +31,8 @@ img {
   &-user-o {
     color: rgb(220, 200, 200);
   }
+
+  &-envelope {
+    transform: scale(.8, 1);
+  }
 }

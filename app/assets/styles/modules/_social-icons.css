@@ -1,0 +1,44 @@
+.social-icons {
+  text-align: center;
+  margin-top: 8rem;
+
+  @mixin atMedium {
+    margin-top: 15rem;
+  }
+
+  &__icon {
+    position: relative;
+    margin: 2rem auto;
+    display: block;
+    font-size:1.6rem;
+    color: $mainOrange;
+    background-color: rgba(255,255,255, .8);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+    transition: transform .3s ease-out;
+
+    @mixin atMedium {
+      display: inline-block;
+      margin: 2rem 1rem;
+    }
+
+    @mixin atLarge {
+      margin: 2rem 5rem;
+    }
+
+    i {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__icon:hover {
+    color: white;
+    background-color: $mainOrange;
+    transform: scale(1.15);
+  }
+}
