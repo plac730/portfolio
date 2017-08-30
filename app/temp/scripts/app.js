@@ -11118,6 +11118,7 @@ new _RevealOnScroll2.default((0, _jquery2.default)('.block-content-2'), "reveal-
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content-3'), "reveal-item-slow", "75%");
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content'), "reveal-item-fast", "75%");
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content__screenshot'), "reveal-item-normal", "75%");
+new _RevealOnScroll2.default((0, _jquery2.default)('.social-icons__icon'), "reveal-item-fast", "75%");
 
 /***/ }),
 /* 3 */

@@ -10,3 +10,4 @@ new RevealOnScroll($('.block-content-2'),"reveal-item-normal", "75%");
 new RevealOnScroll($('.block-content-3'),"reveal-item-slow", "75%");
 new RevealOnScroll($('.block-content'),"reveal-item-fast", "75%");
 new RevealOnScroll($('.block-content__screenshot'), "reveal-item-normal", "75%");
+new RevealOnScroll($('.social-icons__icon'), "reveal-item-fast", "75%");

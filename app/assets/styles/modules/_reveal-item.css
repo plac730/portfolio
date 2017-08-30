@@ -8,10 +8,10 @@
       transition-delay: 1s;
     }
     &-normal {
-      transition-delay: .6s;
+      transition-delay: .5s;
     }
     &-fast {
-      transition-delay: .1s;
+      transition-delay: 0s;
     }
   }
 
