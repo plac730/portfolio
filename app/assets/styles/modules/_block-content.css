@@ -1,6 +1,7 @@
 .block-content {
   background-color:rgb(235,235,225);
   text-align: center;
+  border: 1px solid black;
 
   &-1 {
     background-color:rgb(235,235,225);
@@ -30,8 +31,6 @@
     font-weight: 300;
     padding: 1rem 1rem;
 
-    /*text-shadow: -3px 3px 12px #000000;*/
-
     @mixin atSmall {
       font-size: 2rem;
       font-weight: 300;
@@ -40,7 +39,11 @@
     }
   }
 
+  &__screenshot {
+    box-shadow: -5px 5px 8px #888888;
+  }
+
   &__screenshot:hover {
-    box-shadow: -5px 5px 15px #888888;
+    box-shadow: -2px 2px 8px #888888;
   }
 }
