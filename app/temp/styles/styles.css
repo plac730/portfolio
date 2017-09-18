@@ -612,7 +612,7 @@ img {
 
 .page-section--contact {
     height: 1080px;
-    background: url('/assets/images/handshake2.jpg') top center no-repeat;
+    background: url('../../assets/images/handshake2.jpg') top center no-repeat;
     background-size: cover;
     border-bottom:none;
   }
@@ -684,11 +684,6 @@ img {
   text-align: center;
 }
 
-.block-content:hover {
-    -webkit-box-shadow: -5px 5px 15px #888888;
-            box-shadow: -5px 5px 15px #888888;
-  }
-
 .block-content-1 {
     background-color:rgb(235,235,225);
     text-align: center;
@@ -735,8 +730,9 @@ img {
   }
   }
 
-.block-content__screenshot {
-
+.block-content__screenshot:hover {
+    -webkit-box-shadow: -5px 5px 15px #888888;
+            box-shadow: -5px 5px 15px #888888;
   }
 
 .site-footer {
