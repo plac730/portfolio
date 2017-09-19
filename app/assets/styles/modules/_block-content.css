@@ -28,22 +28,45 @@
 
   &__text {
     line-height: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     padding: 1rem 1rem;
+    text-align: justify;
+
+    p {
+      margin: 0.8rem 0;
+    }
 
     @mixin atSmall {
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 300;
       line-height: 2.5rem;
       padding: 2rem 2rem;
     }
   }
 
+  &__text--about {
+    font-weight: 400;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+
+    @mixin atSmall {
+      font-weight: 300;
+      line-height: 3rem;
+      font-size: 1.8rem;
+    }
+  }
+
   &__screenshot {
-    box-shadow: -5px 5px 8px #888888;
+    img {
+      display:block;
+    }
+
+    border: 1px solid black;
   }
 
   &__screenshot:hover {
-    box-shadow: -2px 2px 8px #888888;
+    box-shadow: -5px 5px 15px #888888;
   }
 }
