@@ -2,6 +2,16 @@
 
   @mixin clearfix;
 
+  &--more-padding {
+    padding: 0 2rem;
+  }
+
+  &--projects {
+    background-color: rgb(235,235,225);
+    border: 1px solid black;
+    margin: 2rem 0;
+  }
+
     @mixin atLarge {
     &__medium-4 {
       float: left;
@@ -11,13 +21,7 @@
     &__medium-6 {
       float: left;
       width: 50%;
-
-      img {
-        width: 100%;
-      }
     }
-
-
   }
 
   &--gutters {

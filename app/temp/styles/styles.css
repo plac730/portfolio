@@ -662,6 +662,16 @@ img {
     display: table;
   }
 
+.row--more-padding {
+    padding: 0 2rem;
+  }
+
+.row--projects {
+    background-color: rgb(235,235,225);
+    border: 1px solid black;
+    margin: 2rem 0;
+  }
+
 @media (min-width: 1200px) {
     .row__medium-4 {
       float: left;
@@ -672,10 +682,6 @@ img {
       float: left;
       width: 50%;
     }
-
-      .row__medium-6 img {
-        width: 100%;
-      }
   }
 
 .row--gutters {
@@ -699,7 +705,7 @@ img {
 .block-content {
   background-color:rgb(235,235,225);
   text-align: center;
-  border: 1px solid black;
+
 }
 
 .block-content-1 {
@@ -769,18 +775,21 @@ img {
   }
 
 .block-content__screenshot {
-
-    border: 1px solid black;
+    position: relative;
   }
 
 .block-content__screenshot img {
       display:block;
+      height: 100%;
+      width: 100%;
+      margin: 2rem 0rem;
+      border: 1px solid black;
     }
 
-.block-content__screenshot:hover {
-    -webkit-box-shadow: -5px 5px 15px #888888;
-            box-shadow: -5px 5px 15px #888888;
-  }
+.block-content__screenshot img:hover {
+      -webkit-box-shadow: -6px 6px 12px #888888;
+              box-shadow: -6px 6px 12px #888888;
+    }
 
 .site-footer {
   background-color: rgb(0, 0, 50);

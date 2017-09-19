@@ -1,7 +1,6 @@
 .block-content {
   background-color:rgb(235,235,225);
   text-align: center;
-  border: 1px solid black;
 
   &-1 {
     background-color:rgb(235,235,225);
@@ -59,14 +58,18 @@
   }
 
   &__screenshot {
+    position: relative;
     img {
       display:block;
+      height: 100%;
+      width: 100%;
+      margin: 2rem 0rem;
+      border: 1px solid black;
     }
 
-    border: 1px solid black;
+    img:hover {
+      box-shadow: -6px 6px 12px #888888;
+    }
   }
 
-  &__screenshot:hover {
-    box-shadow: -5px 5px 15px #888888;
-  }
 }
