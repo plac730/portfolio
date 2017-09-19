@@ -624,7 +624,7 @@ img {
   }
 
 .page-section--light {
-    background-color: rgb(225, 225, 210);
+    background-color: rgb(195, 195, 175);
   }
 
 .page-section--contact {
@@ -668,7 +668,7 @@ img {
 
 .row--projects {
     background-color: rgb(235,235,225);
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 2rem 0;
   }
 
@@ -782,9 +782,30 @@ img {
       display:block;
       height: 100%;
       width: 100%;
-      margin: 2rem 0rem;
+      margin-bottom: 2rem;
       border: 1px solid black;
     }
+
+@media (min-width: 530px) {
+
+.block-content__screenshot img {
+        margin-bottom: 2rem
+    }
+  }
+
+@media (min-width: 800px) {
+
+.block-content__screenshot img {
+        margin-bottom: 2rem
+    }
+  }
+
+@media (min-width: 1200px) {
+
+.block-content__screenshot img {
+        margin: 2rem 0
+    }
+  }
 
 .block-content__screenshot img:hover {
       -webkit-box-shadow: -6px 6px 12px #888888;

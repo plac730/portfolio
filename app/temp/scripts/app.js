@@ -11116,8 +11116,8 @@ var stickyHeader = new _StickyHeader2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content-1'), "reveal-item-fast", "75%");
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content-2'), "reveal-item-normal", "75%");
 new _RevealOnScroll2.default((0, _jquery2.default)('.block-content-3'), "reveal-item-slow", "75%");
-new _RevealOnScroll2.default((0, _jquery2.default)('.block-content'), "reveal-item-fast", "75%");
-new _RevealOnScroll2.default((0, _jquery2.default)('.block-content__screenshot'), "reveal-item-fast", "75%");
+new _RevealOnScroll2.default((0, _jquery2.default)('.block-content'), "reveal-item-fast", "50%");
+new _RevealOnScroll2.default((0, _jquery2.default)('.block-content__screenshot'), "reveal-item-fast", "50%");
 new _RevealOnScroll2.default((0, _jquery2.default)('.social-icons__icon'), "reveal-item-fast", "75%");
 
 /***/ }),
