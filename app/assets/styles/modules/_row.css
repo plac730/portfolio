@@ -41,4 +41,15 @@
     padding-right: 65px;
     padding-bottom: 100px;
   }
+
+  &--equal-height {
+    @mixin atMedium {
+      display: flex;
+    }
+
+    & > div {
+      display:flex;
+    }
+  }
+
 }

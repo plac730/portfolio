@@ -1,7 +1,7 @@
 .site-header {
   position: fixed;
   width: 100%;
-  background-color: rgba(0,0,0, .6);
+  background-color: black;
   z-index: 1;
   padding: 1rem 0;
   height: 55px;
@@ -12,10 +12,6 @@
   }
 
   @mixin atSmall {
-    height: 55px;
-  }
-
-  @mixin atMedium {
     padding: 1.6rem 0;
     height: 86px;
   }

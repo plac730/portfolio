@@ -24,12 +24,6 @@
         float:left;
         padding-bottom: 0;
         transform: scale(1);
-      }
-
-      @mixin atMedium {
-        display:block;
-        opacity: 1;
-        float: left;
         font-size: 2rem;
       }
     }
@@ -48,11 +42,6 @@
         z-index: 1;
         opacity: 1;
         transform: scale(1);
-      }
-
-      @mixin atMedium {
-        display:block;
-        opacity: 1;
         font-size: 2rem;
       }
 
