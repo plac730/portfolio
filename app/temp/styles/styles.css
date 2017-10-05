@@ -602,6 +602,8 @@ img {
 
 .btn:hover {
   color: yellow;
+  -webkit-transform:scale(1.05);
+          transform:scale(1.05);
 }
 
 .wrapper {
@@ -798,6 +800,8 @@ img {
       width: 100%;
       margin-bottom: 2rem;
       border: 1px solid black;
+      -webkit-transition: all .3s ease-out;
+      transition: all .3s ease-out;
     }
 
 @media (min-width: 530px) {
@@ -824,6 +828,8 @@ img {
 .block-content__screenshot img:hover {
       -webkit-box-shadow: -6px 6px 12px #888888;
               box-shadow: -6px 6px 12px #888888;
+      -webkit-transform: scale(1.01);
+              transform: scale(1.01);
     }
 
 .site-footer {
