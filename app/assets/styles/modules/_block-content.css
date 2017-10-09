@@ -22,7 +22,6 @@
     font-size: 1.6rem;
     padding: 1.5rem 0;
     text-shadow: -3px 3px 12px #000000;
-    /*color: rgb(239, 218, 182);*/
   }
 
   &__text {
@@ -81,8 +80,8 @@
     }
 
     img:hover {
-      box-shadow: -6px 6px 12px #888888;
-      transform: scale(1.01);
+      box-shadow: -5px 5px 12px #888888;
+      transform: scale(1.01) translate(-5px);
     }
   }
 
