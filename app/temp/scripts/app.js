@@ -11269,6 +11269,7 @@ var StickyHeader = function () {
 
     this.pageSections = (0, _jquery2.default)(".large-hero, .page-section");
     this.headerLinks = (0, _jquery2.default)(".primary-nav a");
+    this.arrow = (0, _jquery2.default)(".large-hero a");
     this.createPageSectionWaypoints(this.headerLinks);
     this.addSmoothScrolling();
   }
@@ -11277,6 +11278,7 @@ var StickyHeader = function () {
     key: 'addSmoothScrolling',
     value: function addSmoothScrolling() {
       this.headerLinks.smoothScroll({ speed: 1500 });
+      this.arrow.smoothScroll({ speed: 1500 });
     }
   }, {
     key: 'createPageSectionWaypoints',

@@ -567,7 +567,7 @@ img {
     color: rgba(255,255,255,.9);
     background-color: rgba(0,0,0, .4);
     border-radius: 50%;
-    bottom: 15%;
+    bottom: 20%;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
@@ -599,8 +599,8 @@ img {
             transform: translate(-50%, 0);
   }
   85% {
-    -webkit-transform: translate(-50%, 4rem);
-            transform: translate(-50%, 4rem);
+    -webkit-transform: translate(-50%, 3rem);
+            transform: translate(-50%, 3rem);
   }
 
   100% {
@@ -615,8 +615,8 @@ img {
             transform: translate(-50%, 0);
   }
   85% {
-    -webkit-transform: translate(-50%, 4rem);
-            transform: translate(-50%, 4rem);
+    -webkit-transform: translate(-50%, 3rem);
+            transform: translate(-50%, 3rem);
   }
 
   100% {

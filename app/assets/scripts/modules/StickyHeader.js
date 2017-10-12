@@ -6,12 +6,14 @@ class StickyHeader {
   constructor() {
     this.pageSections = $(".large-hero, .page-section");
     this.headerLinks = $(".primary-nav a");
+    this.arrow = $(".large-hero a");
     this.createPageSectionWaypoints(this.headerLinks);
     this.addSmoothScrolling();
   }
 
   addSmoothScrolling() {
     this.headerLinks.smoothScroll({speed:1500});
+    this.arrow.smoothScroll({speed:1500});
   }
 
   createPageSectionWaypoints(links) {
