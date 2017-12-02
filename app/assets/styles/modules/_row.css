@@ -12,7 +12,7 @@
     margin: 2rem 0;
   }
 
-    @mixin atLarge {
+    @mixin atMedium {
     &__medium-4 {
       float: left;
       width: 33.33%;

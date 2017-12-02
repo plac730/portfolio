@@ -3,7 +3,7 @@
     &__home {
       display:block;
       opacity: 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding-bottom: .5rem;
       transition: all .3s ease-out;
       position: relative;
@@ -24,14 +24,14 @@
         float:left;
         padding-bottom: 0;
         transform: scale(1);
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
 
     &__menu-content {
       display: block;
       opacity: 0;
-      font-size: 1.2rem;
+      font-size: 1rem;
       position: relative;
       z-index: -10;
       transform: translateY(-5rem) scale(1.2);
@@ -42,7 +42,7 @@
         z-index: 1;
         opacity: 1;
         transform: scale(1);
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       &--visible {

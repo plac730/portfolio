@@ -19,15 +19,15 @@
   }
 
   &__icon {
-    font-size: 1.6rem;
-    padding: 1.5rem 0;
+    font-size: 1rem;
+    padding: 1.125rem 0;
     text-shadow: -3px 3px 12px #000000;
   }
 
   &__text {
-    line-height: 1.5rem;
+    line-height: 1.125rem;
     font-weight: 400;
-    padding: 1rem 1rem;
+    padding: .75rem .75rem;
     text-align: justify;
 
     p {
@@ -35,24 +35,24 @@
     }
 
     @mixin atSmall {
-      font-size: 1.8rem;
+      font-size: 1.35rem;
       font-weight: 300;
-      line-height: 2.5rem;
-      padding: 2rem 2rem;
+      line-height: 1.75rem;
+      padding: 1.5rem 1.5rem;
     }
   }
 
   &__text--about {
     font-weight: 400;
-    padding-bottom: 2rem;
-    line-height: 2rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     @mixin atSmall {
       font-weight: 300;
-      line-height: 3rem;
-      font-size: 1.8rem;
+      line-height: 2.25rem;
+      font-size: 1.35rem;
     }
   }
 
@@ -67,14 +67,10 @@
       transition: all .3s ease-out;
 
       @mixin atSmall {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
       }
 
       @mixin atMedium {
-        margin-bottom: 2rem;
-      }
-
-      @mixin atLarge {
         margin: 2rem 0;
       }
     }

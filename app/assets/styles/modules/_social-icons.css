@@ -10,17 +10,17 @@
     position: relative;
     margin: 2rem auto;
     display: block;
-    font-size:1.6rem;
+    font-size:1.2rem;
     color: rgba(213,149,65, 1);
     background-color: rgba(255,255,255, 0.8);
-    height: 10rem;
-    width: 10rem;
+    height: 7.5rem;
+    width: 7.5rem;
     border-radius: 1rem;
     transition: all .5s ease-out;
 
-    @mixin atMedium {
+    @mixin atSmall {
       display: inline-block;
-      margin: 2rem 1rem;
+      margin: 1.5rem .75rem;
     }
 
     @mixin atLarge {
