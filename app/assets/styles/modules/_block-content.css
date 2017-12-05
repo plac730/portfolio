@@ -1,21 +1,21 @@
 .block-content {
-  background-color:rgb(235,235,225);
+  background-color:rgb(235,235,235);
   text-align: center;
 
   &-1 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    box-shadow: -6px 6px 12px #888888;
+    box-shadow: -4px 4px 6px #888888;
   }
   &-2 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    box-shadow: -6px 6px 12px #888888;
+    box-shadow: -4px 4px 6px #888888;
   }
   &-3 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    box-shadow: -6px 6px 12px #888888;
+    box-shadow: -4px 4px 6px #888888;
   }
 
   &__icon {
@@ -25,19 +25,22 @@
   }
 
   &__text {
-    line-height: 1.125rem;
+    line-height: 1.35rem;
     font-weight: 400;
     padding: .75rem .75rem;
     text-align: justify;
 
     p {
       margin: 0.8rem 0;
+
+      @mixin atMedium {
+        margin: 1rem 0;
+      }
     }
 
     @mixin atSmall {
       font-size: 1.35rem;
-      font-weight: 300;
-      line-height: 1.75rem;
+      line-height: 2.25rem;
       padding: 1.5rem 1.5rem;
     }
   }
@@ -45,13 +48,12 @@
   &__text--about {
     font-weight: 400;
     padding-bottom: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: center;
     font-size: 1rem;
 
     @mixin atSmall {
-      font-weight: 300;
-      line-height: 2.25rem;
+      line-height: 2.5rem;
       font-size: 1.35rem;
     }
   }
@@ -67,7 +69,7 @@
       transition: all .3s ease-out;
 
       @mixin atSmall {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
       }
 
       @mixin atMedium {

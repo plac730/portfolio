@@ -22,7 +22,7 @@
     font-weight: 400;
     color:white;
     font-size: 3rem;
-    text-shadow: -3px 3px 12px #000000;
+    text-shadow: -3px 3px 6px #000000;
     opacity: 0;
     margin-top: 2rem;
     animation: fade-in 2s forwards .5s ease-out;
@@ -40,7 +40,7 @@
     font-weight: 400;
     color: white;
     font-size: 1.2rem;
-    text-shadow: -3px 3px 12px #000000;
+    text-shadow: -3px 3px 6px #000000;
     margin-top: 5rem;
     opacity: 0;
     animation: fade-in 2s forwards 1s ease-out;

@@ -1,7 +1,7 @@
 .site-header {
   position: fixed;
   width: 100%;
-  background-color: rgba(0,0,0, 1);
+  background-color: rgb(49,57,73);
   z-index: 1;
   padding: 1rem 0;
   height: 50px;
@@ -9,13 +9,13 @@
 
   &--expanded {
     height: 130px;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(49,57,73, .6);
   }
 
   @mixin atSmall {
     padding: 1.2rem 0;
-    height: 64px;
-    background-color: rgba(0,0,0,1);
+    height: 60px;
+    background-color: rgb(49,57,73);
   }
 
   &__menu-icon {

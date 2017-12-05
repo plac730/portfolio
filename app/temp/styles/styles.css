@@ -516,7 +516,7 @@ img {
     font-weight: 400;
     color:white;
     font-size: 3rem;
-    text-shadow: -3px 3px 12px #000000;
+    text-shadow: -3px 3px 6px #000000;
     opacity: 0;
     margin-top: 2rem;
     -webkit-animation: fade-in 2s forwards .5s ease-out;
@@ -541,7 +541,7 @@ img {
     font-weight: 400;
     color: white;
     font-size: 1.2rem;
-    text-shadow: -3px 3px 12px #000000;
+    text-shadow: -3px 3px 6px #000000;
     margin-top: 5rem;
     opacity: 0;
     -webkit-animation: fade-in 2s forwards 1s ease-out;
@@ -661,8 +661,8 @@ img {
     font-weight: 400;
     margin-right: 1.5rem;
     margin-bottom: 1rem;
-    width: 6.5rem;
-    padding: 0
+    width: 6rem;
+    padding: 0.25rem
 }
   }
 
@@ -702,12 +702,12 @@ img {
 }
 
 .page-section--dark {
-    background-color: rgb(170, 170, 150);
+    background-color: rgb(190, 200, 210);
     color: black;
   }
 
 .page-section--light {
-    background-color: rgb(195, 195, 175);
+    background-color: rgb(200,200,200);
   }
 
 .page-section--contact {
@@ -726,16 +726,17 @@ img {
 
 .section-title {
   font-size: 2.25rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
-  text-shadow: -5px 5px 10px #000000;
+  text-shadow: -3px 3px 12px #000000;
   color: white;
 }
 
 @media (min-width: 530px) {
 
 .section-title {
-    font-size: 3.6rem
+    font-size: 3.6rem;
+    margin-bottom: 5rem
 }
   }
 
@@ -750,7 +751,7 @@ img {
   }
 
 .row--projects {
-    background-color: rgb(235,235,225);
+    background-color: rgb(235,235,235);
     border: 2px solid black;
     margin: 2rem 0;
   }
@@ -801,30 +802,30 @@ img {
     }
 
 .block-content {
-  background-color:rgb(235,235,225);
+  background-color:rgb(235,235,235);
   text-align: center;
 
 }
 
 .block-content-1 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -6px 6px 12px #888888;
-            box-shadow: -6px 6px 12px #888888;
+    -webkit-box-shadow: -4px 4px 6px #888888;
+            box-shadow: -4px 4px 6px #888888;
   }
 
 .block-content-2 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -6px 6px 12px #888888;
-            box-shadow: -6px 6px 12px #888888;
+    -webkit-box-shadow: -4px 4px 6px #888888;
+            box-shadow: -4px 4px 6px #888888;
   }
 
 .block-content-3 {
-    background-color:rgb(235,235,225);
+    background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -6px 6px 12px #888888;
-            box-shadow: -6px 6px 12px #888888;
+    -webkit-box-shadow: -4px 4px 6px #888888;
+            box-shadow: -4px 4px 6px #888888;
   }
 
 .block-content__icon {
@@ -834,7 +835,7 @@ img {
   }
 
 .block-content__text {
-    line-height: 1.125rem;
+    line-height: 1.35rem;
     font-weight: 400;
     padding: .75rem .75rem;
     text-align: justify;
@@ -844,12 +845,18 @@ img {
       margin: 0.8rem 0;
     }
 
+@media (min-width: 1200px) {
+
+.block-content__text p {
+        margin: 1rem 0
+    }
+  }
+
 @media (min-width: 530px) {
 
 .block-content__text {
       font-size: 1.35rem;
-      font-weight: 300;
-      line-height: 1.75rem;
+      line-height: 2.25rem;
       padding: 1.5rem 1.5rem
   }
   }
@@ -857,7 +864,7 @@ img {
 .block-content__text--about {
     font-weight: 400;
     padding-bottom: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     text-align: center;
     font-size: 1rem;
   }
@@ -865,8 +872,7 @@ img {
 @media (min-width: 530px) {
 
 .block-content__text--about {
-      font-weight: 300;
-      line-height: 2.25rem;
+      line-height: 2.5rem;
       font-size: 1.35rem
   }
   }
@@ -888,7 +894,7 @@ img {
 @media (min-width: 530px) {
 
 .block-content__screenshot img {
-        margin-bottom: 1.5rem
+        margin-bottom: 2rem
     }
   }
 
@@ -917,7 +923,7 @@ img {
 .site-header {
   position: fixed;
   width: 100%;
-  background-color: rgba(0,0,0, 1);
+  background-color: rgb(49,57,73);
   z-index: 1;
   padding: 1rem 0;
   height: 50px;
@@ -928,15 +934,15 @@ img {
 
 .site-header--expanded {
     height: 130px;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(49,57,73, .6);
   }
 
 @media (min-width: 530px) {
 
 .site-header {
     padding: 1.2rem 0;
-    height: 64px;
-    background-color: rgba(0,0,0,1)
+    height: 60px;
+    background-color: rgb(49,57,73)
 
 }
   }
@@ -1051,7 +1057,7 @@ img {
         padding-bottom: 0;
         -webkit-transform: scale(1);
                 transform: scale(1);
-        font-size: 1.5rem
+        font-size: 1.25rem
     }
   }
 
@@ -1075,7 +1081,7 @@ img {
         opacity: 1;
         -webkit-transform: scale(1);
                 transform: scale(1);
-        font-size: 1.5rem
+        font-size: 1.25rem
     }
   }
 
@@ -1182,7 +1188,7 @@ img {
 
 .social-icons__icon {
     position: relative;
-    margin: 2rem auto;
+    margin: 6rem auto;
     display: block;
     font-size:1.2rem;
     color: rgba(213,149,65, 1);
@@ -1198,7 +1204,7 @@ img {
 
 .social-icons__icon {
       display: inline-block;
-      margin: 1.5rem .75rem
+      margin: 1.5rem 1.2rem
   }
   }
 

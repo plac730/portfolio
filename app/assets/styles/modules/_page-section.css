@@ -2,12 +2,12 @@
   padding: 2rem 0;
 
   &--dark {
-    background-color: rgb(170, 170, 150);
+    background-color: rgb(190, 200, 210);
     color: black;
   }
 
   &--light {
-    background-color: rgb(195, 195, 175);
+    background-color: rgb(200,200,200);
   }
 
   &--contact {
