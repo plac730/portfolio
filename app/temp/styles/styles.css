@@ -699,28 +699,39 @@ img {
 
 .page-section {
   padding: 2rem 0;
+  border-top: 2px solid black;
+
 }
 
 .page-section--dark {
-    background-color: rgb(190, 200, 210);
+    /*background-color: rgb(200, 210, 225);*/
+    background-color: rgb(130,150,170);
     color: black;
   }
 
 .page-section--light {
-    background-color: rgb(200,200,200);
+    background-color: rgb(220,230,245);
   }
 
 .page-section--contact {
     height: 1080px;
     background: url('../../assets/images/handshake2.jpg') top center no-repeat;
     background-size: cover;
-    border-bottom:none;
   }
 
 @media (min-width: 530px) {
 
 .page-section {
+    padding: 2.5rem
+
+}
+  }
+
+@media (min-width: 1200px) {
+
+.page-section {
     padding: 4.5rem
+
 }
   }
 
@@ -728,7 +739,7 @@ img {
   font-size: 2.25rem;
   font-weight: 400;
   text-align: center;
-  text-shadow: -3px 3px 12px #000000;
+  text-shadow: -2px 2px 5px #000000;
   color: white;
 }
 
@@ -810,45 +821,52 @@ img {
 .block-content-1 {
     background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -4px 4px 6px #888888;
-            box-shadow: -4px 4px 6px #888888;
+    border: solid black 2px;
   }
 
 .block-content-2 {
     background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -4px 4px 6px #888888;
-            box-shadow: -4px 4px 6px #888888;
+    /*box-shadow: -4px 4px 6px #888888;*/
+    border: solid black 2px;
   }
 
 .block-content-3 {
     background-color:rgb(235,235,235);
     text-align: center;
-    -webkit-box-shadow: -4px 4px 6px #888888;
-            box-shadow: -4px 4px 6px #888888;
+    /*box-shadow: -4px 4px 6px #888888;*/
+    border: solid black 2px;
   }
 
 .block-content__icon {
-    font-size: 1rem;
+    font-size: .8rem;
     padding: 1.125rem 0;
     text-shadow: -3px 3px 12px #000000;
+  }
+
+@media (min-width: 530px) {
+
+.block-content__icon {
+      font-size: 1rem;
+      padding-top: 2.5rem
+  }
   }
 
 .block-content__text {
     line-height: 1.35rem;
     font-weight: 400;
     padding: .75rem .75rem;
-    text-align: justify;
+    text-align: left;
   }
 
 .block-content__text p {
-      margin: 0.8rem 0;
+      margin-bottom: 0.8rem;
     }
 
 @media (min-width: 1200px) {
 
 .block-content__text p {
-        margin: 1rem 0
+        margin-bottom: 1rem
     }
   }
 
@@ -857,7 +875,7 @@ img {
 .block-content__text {
       font-size: 1.35rem;
       line-height: 2.25rem;
-      padding: 1.5rem 1.5rem
+      padding: 1rem 1.5rem
   }
   }
 
@@ -873,7 +891,8 @@ img {
 
 .block-content__text--about {
       line-height: 2.5rem;
-      font-size: 1.35rem
+      font-size: 1.35rem;
+      padding-bottom: 2.5rem
   }
   }
 
@@ -923,7 +942,7 @@ img {
 .site-header {
   position: fixed;
   width: 100%;
-  background-color: rgb(49,57,73);
+  background-color: rgb(0,0,70);
   z-index: 1;
   padding: 1rem 0;
   height: 50px;
@@ -934,7 +953,7 @@ img {
 
 .site-header--expanded {
     height: 130px;
-    background-color: rgba(49,57,73, .6);
+    background-color: rgba(0,0,70, .6);
   }
 
 @media (min-width: 530px) {
@@ -942,7 +961,7 @@ img {
 .site-header {
     padding: 1.2rem 0;
     height: 60px;
-    background-color: rgb(49,57,73)
+    background-color: rgb(0,0,70)
 
 }
   }
