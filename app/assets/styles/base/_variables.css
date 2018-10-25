@@ -1,2 +1,4 @@
-$mainBlue: #2f5572;
+$mainBlue: rgb(47,85,114);
 $mainOrange: rgb(213, 149, 65);
+$mainBlack: rgb(51,51,51);
+$mainBlackTrans: rgb(51,51,51, .6);
